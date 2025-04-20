@@ -10,11 +10,14 @@
 }
 
 body{
-  /* width: 1512px; */
-  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+main{
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  background-color: gray;
-  margin-left: 200px;
+  justify-content: center;
+
 }
 
 
@@ -32,8 +35,8 @@ body{
 
 }
 .Navbar img{
-    height: 38px;
-    width: 533px;
+    height: 28px;
+    width: 300px;
 }
 
 .Navbar > ul
@@ -57,6 +60,9 @@ body{
   padding-top: 309px;
   padding-left: 103px;
 
+}
+.Hero h1{
+  color: blue;
 }
 
 .Hero button{
@@ -109,4 +115,14 @@ body{
   border-radius: 40px;
   margin-bottom: 25px;
 }
-
+footer
+{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 1512px;
+  height: 100px;
+  background-color: rgba(51, 50, 50, 1);
+  color: white;
+  font-size: 15px;
+}
