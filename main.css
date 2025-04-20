@@ -53,7 +53,7 @@ main{
 
 .Hero
 {
-  background-image: url(/images/hero.png);
+  background-image: url(./images/hero.png);
   width: 1512px;
   height: 508px;
   background-position: center;
