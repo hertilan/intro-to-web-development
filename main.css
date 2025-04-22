@@ -50,6 +50,19 @@ main{
   margin-right: 24px;
   font-size: 16px;
 }
+.Navbar > ul > li > a
+{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.Navbar > ul > li > a:hover
+{
+  background-color: blue;
+  color: whitesmoke;
+ 
+}
 
 .Hero
 {
@@ -72,7 +85,7 @@ main{
   border-radius: 5px;
   margin-top: 10px
 }
-.about-me
+.about-me, .goals
 {
   display:flex;
   flex-direction: column;
@@ -84,11 +97,15 @@ main{
   width: 1512px;
   background-color: white;
 }
-.about-me h3{
+.about-me h3, .goals h3{
   font-size: 32px;
 }
-.about-me p{
+.about-me p, .goals p{
   font-size: 20px;
+}
+.goals
+{
+  background-color: rgba(217, 217, 217, 1);
 }
 
 
